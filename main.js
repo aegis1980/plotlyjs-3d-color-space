@@ -1,6 +1,8 @@
 var img = new Image();
 img.crossOrigin = 'anonymous';
-img.src = 'img/autumn_leaves_at_glencoe.jpg';
+//img.src = 'img/autumn_leaves_at_glencoe.jpg';
+img.src = 'img/linkedin.jpg';
+
 var canvas = document.getElementById('pic');
 var ctx = canvas.getContext('2d');
 img.onload = function() {
